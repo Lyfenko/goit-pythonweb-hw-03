@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-pythonweb-hw-03"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Lyfenko <114363730+Lyfenko@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "goit-pythonweb-hw-03"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
